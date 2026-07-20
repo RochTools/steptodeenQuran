@@ -17,3 +17,9 @@
     "typescript": "~5.9.3"
   }
 }
+{
+  "scripts": {
+    "build": "pnpm install --no-frozen-lockfile && pnpm run build:actual",
+    "build:actual": "vite build"  // یا آپ کا اصل build command
+  }
+}

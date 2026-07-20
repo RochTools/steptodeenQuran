@@ -20,6 +20,6 @@
 {
   "scripts": {
     "build": "pnpm install --no-frozen-lockfile && pnpm run build:actual",
-    "build:actual": "vite build"  // یا آپ کا اصل build command
+    "build:actual": "vite build" 
   }
 }
